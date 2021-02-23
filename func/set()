@@ -1,0 +1,12 @@
+<파이썬-8주차-0802-NHIS_medicine_concat-input>
+
+# 최근 데이터의 컬럼명을 가져옵니다.
+cols_last=temp.columns.tolist()
+cols_last
+
+# 과거 데이터의 컬럼명을 가져옵니다.
+cols_first=first.columns.tolist()
+cols_first
+
+##다른 컬럼명이 있는지 확인하기
+set(cols_last) - set(cols_first)
