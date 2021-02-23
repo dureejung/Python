@@ -1,0 +1,6 @@
+# 최대 줄 수 설정
+pd.set_option('display.max_rows', 100000)
+# 최대 열 수 설정
+pd.get_option('display.max_columns', 500)
+# 표시할 가로의 길이
+pd.get_option('display.width', 1000)
