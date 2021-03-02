@@ -1,0 +1,2 @@
+# 값이 빈 row를 제거합니다.
+df = df[~df.Rank.isnull()]
