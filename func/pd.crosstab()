@@ -1,0 +1,7 @@
+https://rfriend.tistory.com/280
+
+(1) 교차표(contingency table, frequency table) 만들기 : pd.crosstab(index, columns)
+(2) Multi-index, Multi-level로 교차표 만들기 : pd.crosstab([id1, id2], [col1, col2])
+(3) 교차표의 행 이름, 열 이름 부여 : pd.crosstab(rownames=['xx'], colnames=['aa'])
+(4) 교차표의 행 합, 열 합 추가하기 : pd.crosstab(margins=True)
+(5) 구성비율로 교차표 만들기 : pd.crosstab(normalize=True)
