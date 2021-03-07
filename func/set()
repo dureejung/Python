@@ -1,5 +1,5 @@
 <파이썬-8주차-0802-NHIS_medicine_concat-input> 
-
+ 
 # 최근 데이터의 컬럼명을 가져옵니다.
 cols_last=temp.columns.tolist()
 cols_last
