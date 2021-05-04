@@ -1,0 +1,2 @@
+fig.update_yaxes(showticklabels=True , matches=None)
+fig.update_xaxes(showticklabels=True , matches=None)
